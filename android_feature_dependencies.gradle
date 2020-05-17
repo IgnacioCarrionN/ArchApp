@@ -2,6 +2,8 @@
  * Feature dependencies
  */
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 apply from: '../../android_core_dependencies.gradle'
 apply from: '../../android_commons.gradle'
 
