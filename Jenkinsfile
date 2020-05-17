@@ -7,6 +7,7 @@ pipeline {
   stages {
     stage('Checkout') {
         steps {
+          cleanWs()
           // Pull the code from the repo
           git 'https://github.com/IgnacioCarrionN/ArchApp'
           sh 'chmod +x gradlew'
